@@ -56,8 +56,8 @@ body {}
 
 .container__logo>img {
   background-size: cover;
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 }
 
 
@@ -678,8 +678,8 @@ footer li {
   
   
   .container__logo>img {
-    height:70px;
-    width: 70px;
+    height:80px;
+    width: 80px;
   }
   
   
