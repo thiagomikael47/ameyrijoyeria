@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Glitch Slideshow | Demo 2 | Codrops</title>
+	<meta name="description" content="A slideshow with a CSS glitch effect for transitioning between slides" />
+	<meta name="keywords" content="slideshow, glitch, effect, css, clip-path, web dev, web design" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/base.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="css/glitch-slideshow.css" />
+	<script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+
+<body class="demo-2 loading">
+	<header>
+    <div class="contenedor">
+      <nav class="menu">
+        <div class="menu__container">
+          <div class="container__logo">
+            <img src="./img/fondoamaeys.png" id="" alt="logo ameyri joyeria">
+						<div class="tect__logo">
+							<h2>Ameyri</h2>
+							<h3>Joyeria</h3>
+						</div>
+          </div>
+          <ul class="menu__links">
+            <li class="menu__item">
+              <a href="./index.html" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="./paginas/nosotros.html" class="menu__link">Empresa</a>
+            </li>
+            <li class="menu__item  menu__item--show">
+              <a href="#" class="menu__link">Catalogo  </a>
+              <ul class="menu__nesting">
+                <li class="menu__inside">
+                  <a href="./paginas/aretes.html" class="menu__link menu__link--inside">Aretes</a>
+                </li>
+                <li class="menu__inside">
+                  <a href="./paginas/anillos.html" class="menu__link menu__link--inside">Anillos</a>
+                </li>
+                <li class="menu__inside">
+                  <a href="./paginas/brzaletes.html" class="menu__link menu__link--inside">Brazaletes</a>
+                </li>
+                <li class="menu__inside">
+                  <a href="./paginas/cadenas.html" class="menu__link menu__link--inside">Cadenas</a>
+                </li>
+                <li class="menu__inside">
+                  <a href="./paginas/juegos.html" class="menu__link menu__link--inside">Sets</a>
+                </li>
+              </ul>
+            </li>
+						<li class="menu__item">
+              <a href="./paginas/exclusivos.html" class="menu__link">Exclusivos</a>
+            </li>
+            <li class="menu__item">
+              <a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,quiaiera consultar por sus servicos dentales" class="menu__link">Contactanos <i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+          </ul>
+          <div class="menu__hamburguer">
+            <img src="./assets/menu.svg"class="menu__img">
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<main>
+		<div class="contenedor">
+			<a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria"
+				class="btn-wsp" target="_blank">
+				<i class='bx bxl-whatsapp'></i>
+			</a>
+		</div>
+		<div class="contenedor__slider">
+			<div class="content">
+				<div class="slides slides--contained effect-2">
+					<div class="slide slide--current">
+						<div class="slide__img glitch" style="background-image: url(img/img1.jpg);"></div>
+						<div class="slide__text">
+							<h2 class="slide__title">Collares Exclusivos</h2>
+							<p class="slide__description">Diseños para toda ocasion.</p>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide__img glitch" style="background-image: url(img/img2.jpg);"></div>
+						<div class="slide__text">
+							<h2 class="slide__title">Sets</h2>
+							<p class="slide__description">Contamos con diseños unicos en Oro y Plata 925.</p>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide__img glitch" style="background-image: url(img/img3.jpg);"></div>
+						<div class="slide__text">
+							<h2 class="slide__title">Moda</h2>
+							<p class="slide__description">Contamos con diseños acorde a las edades siempre a la vanguardia.</p>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide__img glitch" style="background-image: url(img/img4.jpg);"></div>
+						<div class="slide__text">
+							<h2 class="slide__title">Materiales</h2>
+							<p class="slide__description">Contamos diseños hechos en oro , plata 925 y enchapados de 18kl.
+								strength.</p>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide__img glitch" style="background-image: url(img/img5.jpg);"></div>
+						<div class="slide__text">
+							<h2 class="slide__title">Garantia</h2>
+							<p class="slide__description">Brindamos un producto de calidad y con la ganrantia de ser un producto original.</p>
+						</div>
+					</div>
+				</div>
+				<nav class="slide-nav">
+					<button class="slide-nav__button"><span>Previous</span></button>
+					<button class="slide-nav__button"><span>Next</span></button>
+				</nav>
+			</div>
+		</div>
+		<section class="container__colection">
+			<div class="contenedor">
+				<div class="container__encabezado">
+					<h2 class="title__encabezado">Colecciones</h2>
+				</div>
+				<div class="cards_collection">
+					<div class="card">
+						<div class="front-face card1"></div>
+						<div class="back-face card2">
+							<h2 href="">Anillos </h2>
+							<a href="">Catalogo <i class="fa-solid fa-chevron-right"></i></a>
+							<div class="icons">
+								<a href="https://www.facebook.com/profile.php?id=100072311305020" target="_blank"><i
+									class='bx bxl-facebook'></i></a>
+							<a href="https://www.instagram.com/ameyri.joyeria/" target="_blank"><i class='bx bxl-instagram'></i></a>
+							<a href="https://www.tiktok.com/@imagina040" target="_blank"><i class='bx bxl-tiktok'></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="front-face card3"></div>
+						<div class="back-face card4">
+							<h2>Aretes</h2>
+							<a href="">Catalogo <i class="fa-solid fa-chevron-right"></i></a>
+							<div class="icons">
+								<a href="https://www.facebook.com/profile.php?id=100072311305020" target="_blank"><i
+									class='bx bxl-facebook'></i></a>
+							<a href="https://www.instagram.com/ameyri.joyeria/" target="_blank"><i class='bx bxl-instagram'></i></a>
+							<a href="https://www.tiktok.com/@imagina040" target="_blank"><i class='bx bxl-tiktok'></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="front-face card5"></div>
+						<div class="back-face card6">
+							<h2>Brazaletes</h2>
+							<a href="">Catalogo <i class="fa-solid fa-chevron-right"></i></a>
+							<div class="icons">
+								<a href="https://www.facebook.com/profile.php?id=100072311305020" target="_blank"><i
+									class='bx bxl-facebook'></i></a>
+							<a href="https://www.instagram.com/ameyri.joyeria/" target="_blank"><i class='bx bxl-instagram'></i></a>
+							<a href="https://www.tiktok.com/@imagina040" target="_blank"><i class='bx bxl-tiktok'></i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="front-face card7"></div>
+						<div class="back-face card8">
+							<h2>Cadenas</h2>
+							<a href="">Catalogo <i class="fa-solid fa-chevron-right"></i></a>
+							<div class="icons">
+								<a href="https://www.facebook.com/profile.php?id=100072311305020" target="_blank"><i
+									class='bx bxl-facebook'></i></a>
+							<a href="https://www.instagram.com/ameyri.joyeria/" target="_blank"><i class='bx bxl-instagram'></i></a>
+							<a href="https://www.tiktok.com/@imagina040" target="_blank"><i class='bx bxl-tiktok'></i></a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+	
+		<section class="container__sliderexlusivo">
+			<div class="contenedor">
+				<div class="container__encabezado">
+					<h2 class="title__encabezado">Diseño Exclusivo</h2>
+				</div>
+				<div class="slider__novedad">
+					<div class="slick-list" id="slick-list">
+						<button class="slick-arrow slick-prev" id="button-prev" data-button="button-prev"
+							onclick="app.processingButton(event)">
+							<i class="fa-solid fa-chevron-left"></i>
+						</button>
+						<div class="slick-track" id="track">
+							<div class="slick">
+								<div><a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria">
+										<h4><small>Sets</small>Ameyri Joyeria</h4>
+										<picture>
+											<img src="./img/exlusivos01.png" alt="Image">
+										</picture>
+									</a></div>
+							</div>
+							<div class="slick">
+								<div>
+									<a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria">
+										<h4><small>Sets</small>Ameyri Joyeria</h4>
+										<picture>
+											<img src="./img/exclusivo02.png" alt="Image">
+										</picture>
+									</a>
+								</div>
+							</div>
+							<div class="slick">
+								<div>
+									<a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria">
+										<h4><small>Sets </small>Ameyri Jpyeria</h4>
+										<picture>
+											<img src="./img/exclusivo03.png" alt="Image">
+										</picture>
+									</a>
+								</div>
+							</div>
+							<div class="slick">
+								<div>
+									<a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria">
+										<h4><small>Sets</small> Ameyri Joyeria</h4>
+										<picture>
+											<img src="./img/exclusivo04.png" alt="Image">
+										</picture>
+									</a>
+								</div>
+							</div>
+							<div class="slick">
+								<div>
+									<a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria">
+										<h4><small>Sets</small>Ameyri Joyeria</h4>
+										<picture>
+											<img src="./img/exclusivo05.jpeg">
+										</picture>
+									</a>
+								</div>
+							</div>
+							<div class="slick">
+								<div>
+									<a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria">
+										<h4><small>Sets</small>Ameyri Jpyeria</h4>
+										<picture>
+											<img src="./img/exclusovo06.png">
+										</picture>
+									</a>
+								</div>
+							</div>
+						</div>
+						<button class="slick-arrow slick-next" id="button-next" data-button="button-next"
+							onclick="app.processingButton(event)">
+							<i class="fa-solid fa-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="container__profile">
+			<div class="contenedor">
+				<div class="profile__found">
+					<div class="text__profile">
+						<h2>Novios</h2>
+					</div>
+					<div class="info__profile">
+						<p>Ameyri Joyeria siempre presente en tus momentos mas importantes e innolvidables, brindandote joyeria de
+							calidad.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container_footer">
+			<div class="content__footer">
+				<div class="profil">
+					<div class="logo__area">
+						<img src="./img/fondoamaeys.png" alt="">
+						<span class="logo_name">Ameyri Joyeria</span>
+						<button id="dark-mode" class="moon"><i class='bx bxs-moon'></i></button>
+						<button id="light-mode" class="sun hide"><i class='bx bx-sun'></i></button>
+					</div>
+					<div class="desc__area">
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, eveniet neque error qui molestias
+							porro </p>
+					</div>
+					<div class="socail__media">
+						<a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,Cotice nuestras joyas ,Ameyri Joyeria"><i
+								class='bx bxl-whatsapp'></i></box-icon></a>
+						<a href="https://www.facebook.com/profile.php?id=100072311305020" target="_blank"><i
+								class='bx bxl-facebook'></i></a>
+						<a href="https://www.instagram.com/ameyri.joyeria/" target="_blank"><i class='bx bxl-instagram'></i></a>
+						<a href="https://www.tiktok.com/@imagina040" target="_blank"><i class='bx bxl-tiktok'></i></a>
+					</div>
+				</div>
+				<div class="service__area">
+					<ul class="service__header">
+						<li class="service_name">Catalogo :</li>
+						<li><a href="">Anillos</a></li>
+						<li><a href="">Cadenas</a></li>
+						<li><a href="">Brazaletes</a></li>
+						<li><a href="">Aretes</a></li>
+					</ul>
+					<ul class="service__header ">
+						<li class="service_name money_pago">Medios de pago :
+							<ul class="money">
+								<li><img src="./img/VISA.png" alt=""></li>
+								<li><img src="./img/Master_Card.png" alt=""></li>
+								<li><img src="./img/plin.png" alt="plin"></li>
+								<li><img src="./img/yape.png" alt="yape"></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="service__header">
+						<li class="service_name">Contacto :</li>
+						<li><a href="">Direccion : Jr Italia 216</a></li>
+						<li><a href="">Chincha Alta</a></li>
+						<li><a href="">Celular : 934709652</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/dark-mode.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/demo.js"></script>
+	<script src="js/demo2.js"></script>
+</body>
+
+</html>
